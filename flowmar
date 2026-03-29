@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>flowmarmusic</title>
+
+<style>
+
+.barra-superior {
+     width: 100%;
+     height: 150px;
+     background-color: black;
+     top: 0;
+     left: 0;
+     z-index: 1000;
+     display: flex;
+     justify-content: flex-end;
+     padding-right: 0;
+     position: fixed;
+}
+
+.logo {
+     
+     height: 10px;
+     width: 50px;
+     
+     }
+
+body{     
+font-size: 60px;
+font-weight: 50px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+text-decoration:rgb(254, 251, 251);
+
+
+}
+
+
+h1 {
+color: rgb(245, 242, 248);
+font-weight: bold;
+font-size: 100px;
+letter-spacing: 3px;
+text-shadow: 2px 2px 8px rgba(215, 42, 42, 0.7);
+text-transform: uppercase;
+padding-top: 20%;
+padding-left: 20px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+      <div class="barra-superior">
+
+      </div>
+
+      <div class="logoflowmar">
+      <img src="logoflowmar.jpg" alt="logoflowmar">
+     </div>
+
+           <video autoplay muted loop playsinline 
+width="100%" height="100vh"
+style="position: fixed; top:0; left:0; width:100%; height:100%; object-fit: cover; z-index:-1;">
+
+      <source src="video1.mp4" type="video/mp4">
+
+     </video>
+
+     
+<div class="contenido">     
+
+<h1>FLOWMAR MUSIC</h1>
+
+<a href="https://open.spotify.com/user/vl97gpho2do2ehrs4pgd6gm98?si=5896a0a52b8f4a36" target="_blank">
+<class="spotify-btn">
+<img src="Spotify Logo.jpg" width="50px" style="position: absolute;
+top: 800px; left: 800px;">  
+
+
+
+<a href="https://www.instagram.com/flowmar_music/" target="_blank">
+<class="instagram-btn">
+<img src="instagram logo.jpg" width="50px" style="position: absolute;
+top: 800px; left: 400px;">
+
+
+
+<a href="https://www.tiktok.com/@flowmarproduccion" target="_blank">
+  <class="gmail-btn">
+  <img src="Tiktoklogo.jpg" width="50px" style="position: absolute;
+  top: 800px; left: 1200px;">
+
+</button>
+</a>
+</div>
+
+
+</body>
+</html>
+
+
